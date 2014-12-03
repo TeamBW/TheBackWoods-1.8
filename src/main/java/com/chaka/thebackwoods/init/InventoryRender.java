@@ -12,11 +12,15 @@ public class InventoryRender {
 
         InventoryBlockRender(ModBlocks.testBlock, "testBlock");
         InventoryBlockRender(ModBlocks.amethystOre, "amethystOre");
+        InventoryBlockRender(ModBlocks.amethystBlock, "amethystOreBlock");
 
         InventoryItemRender(ModItems.testItem, "testItem");
         InventoryItemRender(ModItems.amethystItem, "amethystItem");
         InventoryItemRender(ModItems.amethystSword, "amethystSword");
         InventoryItemRender(ModItems.amethystPickaxe, "amethystPickaxe");
+        InventoryItemRender(ModItems.amethystShovel, "amethystShovel");
+        InventoryItemRender(ModItems.amethystAxe, "amethystAxe");
+        InventoryItemRender(ModItems.amethystHoe, "amethystHoe");
     }
 
     public static void InventoryBlockRender(Block block, String blockName) {

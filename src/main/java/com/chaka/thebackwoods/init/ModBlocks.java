@@ -1,6 +1,7 @@
 package com.chaka.thebackwoods.init;
 
 import com.chaka.thebackwoods.block.BlockTest;
+import com.chaka.thebackwoods.block.gemblock.BlockAmethyst;
 import com.chaka.thebackwoods.block.ore.BlockAmethystOre;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -9,6 +10,7 @@ public class ModBlocks {
 
     public static BlockTest testBlock;
     public static BlockAmethystOre amethystOre;
+    public static BlockAmethyst amethystBlock;
 
     public static void init() {
         
@@ -16,5 +18,7 @@ public class ModBlocks {
         GameRegistry.registerBlock(testBlock, "testBlock");
         amethystOre = new BlockAmethystOre(Material.rock);
         GameRegistry.registerBlock(amethystOre, "amethystOre");
+        amethystBlock = new BlockAmethyst(Material.iron);
+        GameRegistry.registerBlock(amethystBlock, "amethystBlock");
     }
 }

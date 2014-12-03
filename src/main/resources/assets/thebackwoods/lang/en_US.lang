@@ -10,6 +10,10 @@ tile.thebackwoods:amethystOre.name=Amethyst Ore
 item.thebackwoods:testItem.name=Test Item
 item.thebackwoods:amethystItem.name=Amethyst
 item.thebackwoods:amethystSword.name=Amethyst Sword
+item.thebackwoods:amethystPickaxe.name=Amethyst Pickaxe
+item.thebackwoods:amethystShovel.name=Amethyst Shovel
+item.thebackwoods:amethystAxe.name=Amethyst Axe
+item.thebackwoods:amethystHoe.name=Amethyst Hoe
 
 #############
 #Item Groups#

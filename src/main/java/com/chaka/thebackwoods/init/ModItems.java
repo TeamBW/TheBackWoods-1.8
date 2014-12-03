@@ -2,8 +2,7 @@ package com.chaka.thebackwoods.init;
 
 import com.chaka.thebackwoods.item.ItemTest;
 import com.chaka.thebackwoods.item.gem.ItemAmethyst;
-import com.chaka.thebackwoods.item.tool.amethyst.ItemAmethystPickaxe;
-import com.chaka.thebackwoods.item.tool.amethyst.ItemAmethystSword;
+import com.chaka.thebackwoods.item.tool.amethyst.*;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -17,6 +16,9 @@ public class ModItems {
     public static ItemAmethyst amethystItem;
     public static ItemAmethystSword amethystSword;
     public static ItemAmethystPickaxe amethystPickaxe;
+    public static ItemAmethystShovel amethystShovel;
+    public static ItemAmethystAxe amethystAxe;
+    public static ItemAmethystHoe amethystHoe;
 
     public static void init() {
 
@@ -28,5 +30,11 @@ public class ModItems {
         GameRegistry.registerItem(amethystSword, "amethystSword");
         amethystPickaxe = new ItemAmethystPickaxe(amethystToolMaterial);
         GameRegistry.registerItem(amethystPickaxe, "amethystPickaxe");
+        amethystShovel = new ItemAmethystShovel(amethystToolMaterial);
+        GameRegistry.registerItem(amethystShovel, "amethystShovel");
+        amethystAxe = new ItemAmethystAxe(amethystToolMaterial);
+        GameRegistry.registerItem(amethystAxe, "amethystAxe");
+        amethystHoe = new ItemAmethystHoe(amethystToolMaterial);
+        GameRegistry.registerItem(amethystHoe, "amethystHoe");
     }
 }
