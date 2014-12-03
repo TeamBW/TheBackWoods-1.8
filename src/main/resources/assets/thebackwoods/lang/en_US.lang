@@ -1,0 +1,22 @@
+########
+#Blocks#
+########
+tile.thebackwoods:testBlock.name=Test Block
+tile.thebackwoods:amethystOre.name=Amethyst Ore
+
+#######
+#Items#
+#######
+item.thebackwoods:testItem.name=Test Item
+item.thebackwoods:amethystItem.name=Amethyst
+item.thebackwoods:amethystSword.name=Amethyst Sword
+
+#############
+#Item Groups#
+#############
+itemGroup.thebackwoods=The BackWoods
+
+######
+#Misc#
+######
+generator.backWoods=The BackWoods

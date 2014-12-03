@@ -1,0 +1,21 @@
+[
+{
+"modid": "thebackwoods",
+"name": "The BackWoods",
+"description": "All The Comforts Of The Outdoors in One Little .jar!",
+"version": "1.8-0.0.2",
+"mcversion": "1.8",
+"url": "http://chaka15205.2fh.co/thebackwoods",
+"updateUrl": "",
+"authorList": [
+"Chaka15205"
+],
+"credits": "",
+"logoFile": "",
+"screenshots": [
+],
+"parent":"",
+"dependencies": [
+]
+}
+]
