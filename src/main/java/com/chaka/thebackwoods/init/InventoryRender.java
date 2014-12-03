@@ -12,7 +12,7 @@ public class InventoryRender {
 
         InventoryBlockRender(ModBlocks.testBlock, "testBlock");
         InventoryBlockRender(ModBlocks.amethystOre, "amethystOre");
-        InventoryBlockRender(ModBlocks.amethystBlock, "amethystOreBlock");
+        InventoryBlockRender(ModBlocks.amethystBlock, "amethystBlock");
 
         InventoryItemRender(ModItems.testItem, "testItem");
         InventoryItemRender(ModItems.amethystItem, "amethystItem");

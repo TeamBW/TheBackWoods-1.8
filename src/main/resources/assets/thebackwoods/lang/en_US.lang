@@ -3,6 +3,7 @@
 ########
 tile.thebackwoods:testBlock.name=Test Block
 tile.thebackwoods:amethystOre.name=Amethyst Ore
+tile.thebackwoods:amethystBlock.name=Amethyst Block
 
 #######
 #Items#
