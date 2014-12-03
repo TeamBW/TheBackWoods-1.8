@@ -1,9 +1,8 @@
-package com.chaka.thebackwoods;
+package com.chaka.thebackwoods.util;
 
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.oredict.OreDictionary;
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
- 
+
 public class MFRHandler {
 	
 	@SubscribeEvent
@@ -11,7 +10,7 @@ public class MFRHandler {
 		if (event.Name == "Greggy_greg_do_please_kindly_stuff_a_sock_in_it_xxx") {
 			int a = 1;
 			while (a <= 5) {
-				LogHelper.warn("Skyggy_sky_do_please_kindly_shut_up");
+				LogHandler.warn("Skyggy_sky_do_please_kindly_shut_up");
 				a++;
 			}
 		}
