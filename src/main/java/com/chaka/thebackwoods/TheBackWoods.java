@@ -6,6 +6,7 @@ import com.chaka.thebackwoods.init.ModItems;
 import com.chaka.thebackwoods.init.Recipes;
 import com.chaka.thebackwoods.util.LogHelper;
 import com.chaka.thebackwoods.util.Reference;
+import com.chaka.thebackwoods.util.MFRHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -16,6 +17,8 @@ public class TheBackWoods {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
+        
+        MinecraftForge.EVENT_BUS.register((Object)new MFRHandler());
 
         ModBlocks.init();
         ModItems.init();
