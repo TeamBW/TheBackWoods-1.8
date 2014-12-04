@@ -4,6 +4,9 @@
 tile.thebackwoods:testBlock.name=Test Block
 tile.thebackwoods:amethystOre.name=Amethyst Ore
 tile.thebackwoods:amethystBlock.name=Amethyst Block
+tile.thebackwoods:firWood.name=Fir Wood
+tile.thebackwoods:firWoodPlanks.name=Fir Wood Planks
+tile.thebackwoods:firWoodLeaves.name=Fir Wood Leaves
 
 #######
 #Items#
@@ -20,6 +23,7 @@ item.thebackwoods:amethystHoe.name=Amethyst Hoe
 #Item Groups#
 #############
 itemGroup.thebackwoods=The BackWoods
+itemGroup.thebackwoodstools=The BackWoods Tools
 
 ######
 #Misc#

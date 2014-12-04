@@ -13,6 +13,9 @@ public class InventoryRender {
         InventoryBlockRender(ModBlocks.testBlock, "testBlock");
         InventoryBlockRender(ModBlocks.amethystOre, "amethystOre");
         InventoryBlockRender(ModBlocks.amethystBlock, "amethystBlock");
+        InventoryBlockRender(ModBlocks.firWood, "firWood");
+        InventoryBlockRender(ModBlocks.firWoodPlanks, "firWoodPlanks");
+        InventoryBlockRender(ModBlocks.firWoodLeaves, "firWoodLeaves");
 
         InventoryItemRender(ModItems.testItem, "testItem");
         InventoryItemRender(ModItems.amethystItem, "amethystItem");

@@ -18,6 +18,10 @@ public class Recipes {
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.amethystHoe), " AA", " # ", " # ", 'A', new ItemStack(ModItems.amethystItem), '#', new ItemStack(Item.getItemById(280)));
 
         //Gem Blocks
-        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.amethystBlock), new ItemStack(ModItems.amethystItem, 9));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.amethystBlock), new ItemStack(ModItems.amethystItem), new ItemStack(ModItems.amethystItem), new ItemStack(ModItems.amethystItem), new ItemStack(ModItems.amethystItem), new ItemStack(ModItems.amethystItem), new ItemStack(ModItems.amethystItem), new ItemStack(ModItems.amethystItem), new ItemStack(ModItems.amethystItem), new ItemStack(ModItems.amethystItem));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.amethystItem, 9), new ItemStack(ModBlocks.amethystBlock));
+
+        //Fir Wood
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.firWoodPlanks, 4), new ItemStack(ModBlocks.firWood));
     }
 }
