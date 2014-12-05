@@ -1,6 +1,7 @@
 {
-	"parent": "block/cube_all",
+	"parent": "thebackwoods:block/TBW_cube_column",
 	"textures": {
-		"all": "thebackwoods:blocks/firWood"
+		"side": "thebackwoods:blocks/firWood",
+		"end": "thebackwoods:blocks/firWoodTop"
 	}
 }

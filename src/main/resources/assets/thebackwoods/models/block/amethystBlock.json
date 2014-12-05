@@ -1,5 +1,5 @@
 {
-	"parent": "block/cube_all",
+	"parent": "thebackwoods:block/TBW_cube_all",
 	"textures": {
 		"all": "thebackwoods:blocks/amethystBlock"
 	}
