@@ -1,6 +1,6 @@
 The BackWoods 1.8
 ============
 
-[![Build Status](https://travis-ci.org/TeamBW/TheBackWoods-1.8.svg?branch=master)](https://travis-ci.org/TeamBW/TheBackWoods-1.8)
+[![Circle CI](https://circleci.com/gh/TeamBW/TheBackWoods-1.8/tree/master.svg?style=svg)](https://circleci.com/gh/TeamBW/TheBackWoods-1.8/tree/master)
 
 The Official Repository Of The BackWoods Mod Version 1.8
